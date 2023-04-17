@@ -1,0 +1,62 @@
+# code has been referred from https://www.youtube.com/watch?v=ww6xBeJmCF0
+# code has been referred from https://about.gitlab.com/blog/2021/02/05/ci-deployment-and-environments/
+image: openjdk:17
+
+stages:
+  - build
+  - test
+  - prod deploy
+  - test deploy
+
+build:
+  stage: build
+  #for using the shared runner hosted on dalhousie server
+  tags:
+    - dalfcs_gitlab_docker_ci
+  script:
+    - chmod +x ./mvnw
+    - ./mvnw package
+  artifacts:
+    paths:
+      - target/demo-0.0.1-SNAPSHOT.jar
+  
+
+test:
+  stage: test
+  tags:
+    - dalfcs_gitlab_docker_ci
+  script:
+    - chmod +x ./mvnw
+    - ./mvnw test
+
+prod deploy:
+  stage: prod deploy
+  tags:
+    - dalfcs_gitlab_docker_ci
+  image: ruby:latest
+  script:
+    - apt-get update -qy
+    - apt-get install -y ruby-dev
+    - gem install dpl
+    #production server
+    - dpl --provider=heroku --app=motorheaven --api-key=$heroku_server
+  only:
+    - main
+
+test deploy:
+  stage: test deploy
+  tags:
+    - dalfcs_gitlab_docker_ci
+  image: ruby:latest
+  script:
+    - apt-get update -qy
+    - apt-get install -y ruby-dev
+    - gem install dpl
+    #server for testing/
+    - dpl --provider=heroku --app=motorheavan-test --api-key=$heroku_server
+  except:
+   - main
+
+
+
+

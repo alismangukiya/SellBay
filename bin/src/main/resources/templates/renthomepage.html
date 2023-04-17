@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+<html lang="english" xmlns:th="http://www.thymeleaf.org/">
+  <head>
+    <title>MotorHeaven</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta charset="utf-8" />
+    <meta property="twitter:card" content="summary_large_image" />
+
+    <style data-tag="reset-style-sheet">
+      html {  line-height: 1.15;}body {  margin: 0;}* {  box-sizing: border-box;  border-width: 0;  border-style: solid;}p,li,ul,pre,div,h1,h2,h3,h4,h5,h6,figure,blockquote,figcaption {  margin: 0;  padding: 0;}button {  background-color: transparent;}button,input,optgroup,select,textarea {  font-family: inherit;  font-size: 100%;  line-height: 1.15;  margin: 0;}button,select {  text-transform: none;}button,[type="button"],[type="reset"],[type="submit"] {  -webkit-appearance: button;}button::-moz-focus-inner,[type="button"]::-moz-focus-inner,[type="reset"]::-moz-focus-inner,[type="submit"]::-moz-focus-inner {  border-style: none;  padding: 0;}button:-moz-focus,[type="button"]:-moz-focus,[type="reset"]:-moz-focus,[type="submit"]:-moz-focus {  outline: 1px dotted ButtonText;}a {  color: inherit;  text-decoration: inherit;}input {  padding: 2px 4px;}img {  display: block;}html { scroll-behavior: smooth  }
+    </style>
+    <style data-tag="default-style-sheet">
+      html {
+        font-family: Inter;
+        font-size: 16px;
+      }
+
+      body {
+        font-weight: 400;
+        font-style:normal;
+        text-decoration: none;
+        text-transform: none;
+        letter-spacing: normal;
+        line-height: 1.15;
+        color: var(--dl-color-gray-black);
+        background-color: var(--dl-color-gray-white);
+
+      }
+    </style>
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&amp;display=swap"
+      data-tag="font"
+    />
+  </head>
+  <body>
+    <div>
+      <link href="../static/css/main.css" th:href="@{css/main.css}" rel="stylesheet" />
+
+      <div class="home-page-buy-cars-by-default-container">
+        <div
+          class="home-page-buy-cars-by-default-home-page-buy-cars-by-default"
+        >
+          <div class="home-page-buy-cars-by-default-group37">
+            <span class="home-page-buy-cars-by-default-text">
+              <form action="#" th:action="@{/}">
+                <button type="submit">Buy Car</button>
+              </form>
+            </span>
+            <span class="home-page-buy-cars-by-default-text02">
+              <form action="#" th:action="@{/rentcarhome}">
+                <button class="active" type="submit">Rent Car</button>
+              </form>
+            </span>
+          </div>
+          
+          <form action="#" th:action="@{/cars/${renthome.get(0).carID}}">
+          <button type="submit" class="home-page-buy-cars-by-default-group38">
+            <div class="home-page-buy-cars-by-default-frame11">
+              <div class="home-page-buy-cars-by-default-group10">
+                <img src="../static/img/rectangle502389-fv3-300w.png" th:src="@{img/rectangle502389-fv3-300w.png}"
+                  alt="Rectangle502389"
+                  class="home-page-buy-cars-by-default-rectangle50">
+              </img>
+                <span class="home-page-buy-cars-by-default-text08">
+                  <span th:text= "'Rent: '+ ${renthome.get(0).price}+ ' CAD per day'"></span>
+                </span>
+                <span class="home-page-buy-cars-by-default-text10">
+                  <span th:text= "${renthome.get(0).model}"></span>
+                </span>
+                <span class="home-page-buy-cars-by-default-text12">
+                  <span th:text= "'Condition: '+${renthome.get(0).condition}"></span>
+                </span>
+                <div class="home-page-buy-cars-by-default-frameiconimage">
+                  <div class="home-page-buy-cars-by-default-group">
+                    <img
+                      src="${renthome.get(0).imageUrl}"
+                      th:src="@{${renthome.get(0).imageUrl}}"
+                      alt="Vector2389"
+                      class="home-page-buy-cars-by-default-vector01"
+                    />
+                  </div>
+                </div>
+              </div>
+            </div>
+          </button>
+        </form>
+          <form action="#" th:action="@{/cars/${renthome.get(1).carID}}">
+          <button type="submit" class="home-page-buy-cars-by-default-group39">
+            <div class="home-page-buy-cars-by-default-frame11">
+              <div class="home-page-buy-cars-by-default-group10">
+                <img src="../static/img/rectangle502389-fv3-300w.png" th:src="@{img/rectangle502389-fv3-300w.png}"
+                  alt="Rectangle502389"
+                  class="home-page-buy-cars-by-default-rectangle50">
+              </img>
+                <span class="home-page-buy-cars-by-default-text08">
+                  <span th:text= "'Rent: '+ ${renthome.get(1).price}+ ' CAD per day'"></span>
+                </span>
+                <span class="home-page-buy-cars-by-default-text10">
+                  <span th:text= "${renthome.get(1).model}"></span>
+                </span>
+                <span class="home-page-buy-cars-by-default-text12">
+                  <span th:text= "'Condition: '+${renthome.get(1).condition}"></span>
+                </span>
+                  <div class="home-page-buy-cars-by-default-group">
+                    <img
+                      src="${renthome.get(1).imageUrl}"
+                      th:src="@{${renthome.get(1).imageUrl}}"
+                      alt="Vector2389"
+                      class="home-page-buy-cars-by-default-vector01"
+                    />
+                </div>
+              </div>
+            </div>
+          </button>
+        </form>
+        <form action="#" th:action="@{/cars/${renthome.get(2).carID}}">
+        <button type="submit" class="home-page-buy-cars-by-default-group41">
+            <div class="home-page-buy-cars-by-default-frame11">
+              <div class="home-page-buy-cars-by-default-group11">
+                <img src="../static/img/rectangle502389-fv3-300w.png" th:src="@{img/rectangle502389-fv3-300w.png}"
+                  alt="Rectangle502389"
+                  class="home-page-buy-cars-by-default-rectangle50">
+              </img>
+                <span class="home-page-buy-cars-by-default-text08">
+                  <span th:text= "'Rent: '+ ${renthome.get(2).price}+ ' CAD per day'"></span>
+                </span>
+                <span class="home-page-buy-cars-by-default-text10">
+                  <span th:text= "${renthome.get(2).model}"></span>
+                </span>
+                <span class="home-page-buy-cars-by-default-text12">
+                  <span th:text= "'Condition: '+${renthome.get(2).condition}"></span>
+                </span>
+                  <div class="home-page-buy-cars-by-default-group">
+                    <img
+                      src="${renthome.get(2).imageUrl}"
+                      th:src="@{${renthome.get(2).imageUrl}}"
+                      alt="Vector2389"
+                      class="home-page-buy-cars-by-default-vector01"
+                    />
+                </div>
+              </div>
+            </div>
+        </button>
+        </form>
+
+        <form action="#" th:action="@{/cars/${renthome.get(3).carID}}">
+        <button type="submit" class="home-page-buy-cars-by-default-group40">
+            <div class="home-page-buy-cars-by-default-frame11">
+              <div class="home-page-buy-cars-by-default-group10">
+                <img src="../static/img/rectangle502389-fv3-300w.png" th:src="@{img/rectangle502389-fv3-300w.png}"
+                  alt="Rectangle502389"
+                  class="home-page-buy-cars-by-default-rectangle50">
+              </img>
+                <span class="home-page-buy-cars-by-default-text08">
+                  <span th:text= "'Rent: '+ ${renthome.get(3).price}+ ' CAD per day'"></span>
+                </span>
+                <span class="home-page-buy-cars-by-default-text10">
+                  <span th:text= "${renthome.get(3).model}"></span>
+                </span>
+                <span class="home-page-buy-cars-by-default-text12">
+                  <span th:text= "'Condition: '+${renthome.get(3).condition}"></span>
+                </span>
+                <span class="home-page-buy-cars-by-default-text12">
+                  <span th:text= "'Condition: '+${renthome.get(3).condition}"></span>
+                </span>
+                  <div class="home-page-buy-cars-by-default-group">
+                    <img
+                      src="${renthome.get(3).imageUrl}"
+                      th:src="@{${renthome.get(3).imageUrl}}"
+                      alt="Vector2389"
+                      class="home-page-buy-cars-by-default-vector01"
+                    />
+                </div>
+              </div>
+            </div>
+        </button>
+        </form>
+
+        <form action="#" th:action="@{/cars/${renthome.get(4).carID}}">
+        <button type="submit" class="home-page-buy-cars-by-default-group42">
+            <div class="home-page-buy-cars-by-default-frame11">
+              <div class="home-page-buy-cars-by-default-group10">
+                <img src="../static/img/rectangle502389-fv3-300w.png" th:src="@{img/rectangle502389-fv3-300w.png}"
+                  alt="Rectangle502389"
+                  class="home-page-buy-cars-by-default-rectangle50">
+              </img>
+                <span class="home-page-buy-cars-by-default-text08">
+                  <span th:text= "'Rent: '+ ${renthome.get(4).price}+ ' CAD per day'"></span>
+                </span>
+                <span class="home-page-buy-cars-by-default-text10">
+                  <span th:text= "${renthome.get(4).model}"></span>
+                </span>
+                <span class="home-page-buy-cars-by-default-text12">
+                  <span th:text= "'Condition: '+${renthome.get(4).condition}"></span>
+                </span>
+                  <div class="home-page-buy-cars-by-default-group">
+                    <img
+                      src="${renthome.get(4).imageUrl}"
+                      th:src="@{${renthome.get(4).imageUrl}}"
+                      alt="Vector2389"
+                      class="home-page-buy-cars-by-default-vector01"
+                    />
+                  </div>
+              </div>
+            </div>
+        </button>
+        </form>
+
+        <form action="#" th:action="@{/cars/${renthome.get(5).carID}}">
+        <button type="submit" class="home-page-buy-cars-by-default-group43">
+            <div class="home-page-buy-cars-by-default-frame11">
+              <div class="home-page-buy-cars-by-default-group10">
+                <img src="../static/img/rectangle502389-fv3-300w.png" th:src="@{img/rectangle502389-fv3-300w.png}"
+                  alt="Rectangle502389"
+                  class="home-page-buy-cars-by-default-rectangle50">
+              </img>
+                <span class="home-page-buy-cars-by-default-text08">
+                  <span th:text= "'Rent: '+ ${renthome.get(5).price}+ ' CAD per day'"></span>
+                </span>
+                <span class="home-page-buy-cars-by-default-text10">
+                  <span th:text= "${renthome.get(5).model}"></span>
+                </span>
+                <span class="home-page-buy-cars-by-default-text12">
+                  <span th:text= "'Condition: '+${renthome.get(5).condition}"></span>
+                </span>
+                  <div class="home-page-buy-cars-by-default-group">
+                    <img
+                      src="${renthome.get(5).imageUrl}"
+                      th:src="@{${renthome.get(5).imageUrl}}"
+                      alt="Vector2389"
+                      class="home-page-buy-cars-by-default-vector01"
+                    />
+                  </div>
+                </div>
+              </div>
+            </div>
+        </button>
+        </form>
+
+        <form action="#" th:action="@{/cars/${renthome.get(6).carID}}">
+        <button type="submit" class="home-page-buy-cars-by-default-group44">
+            <div class="home-page-buy-cars-by-default-frame11">
+              <div class="home-page-buy-cars-by-default-group10">
+                <img src="../static/img/rectangle502389-fv3-300w.png" th:src="@{img/rectangle502389-fv3-300w.png}"
+                  alt="Rectangle502389"
+                  class="home-page-buy-cars-by-default-rectangle50">
+              </img>
+                <span class="home-page-buy-cars-by-default-text08">
+                  <span th:text= "'Rent: '+ ${renthome.get(6).price}+ ' CAD per day'"></span>
+                </span>
+                <span class="home-page-buy-cars-by-default-text10">
+                  <span th:text= "${renthome.get(6).model}"></span>
+                </span>
+                <span class="home-page-buy-cars-by-default-text12">
+                  <span th:text= "'Condition: '+${renthome.get(6).condition}"></span>
+                </span>
+                  <div class="home-page-buy-cars-by-default-group">
+                    <img
+                      src="${renthome.get(6).imageUrl}"
+                      th:src="@{${renthome.get(6).imageUrl}}"
+                      alt="Vector2389"
+                      class="home-page-buy-cars-by-default-vector01"
+                    />
+                  </div>
+              </div>
+            </div>
+          </button>
+        </form>
+
+        <form action="#" th:action="@{/cars/${renthome.get(7).carID}}">
+        <button type="submit" class="home-page-buy-cars-by-default-group45">
+            <div class="home-page-buy-cars-by-default-frame11">
+              <div class="home-page-buy-cars-by-default-group10">
+                <img src="../static/img/rectangle502389-fv3-300w.png" th:src="@{img/rectangle502389-fv3-300w.png}"
+                  alt="Rectangle502389"
+                  class="home-page-buy-cars-by-default-rectangle50">
+              </img>
+                <span class="home-page-buy-cars-by-default-text08">
+                  <span th:text= "'Rent: '+ ${renthome.get(7).price}+ ' CAD per day'"></span>
+                </span>
+                <span class="home-page-buy-cars-by-default-text10">
+                  <span th:text= "${renthome.get(7).model}"></span>
+                </span>
+                <span class="home-page-buy-cars-by-default-text12">
+                  <span th:text= "'Condition: '+${renthome.get(7).condition}"></span>
+                </span>
+                  <div class="home-page-buy-cars-by-default-group">
+                    <img
+                      src="${renthome.get(7).imageUrl}"
+                      th:src="@{${renthome.get(7).imageUrl}}"
+                      alt="Vector2389"
+                      class="home-page-buy-cars-by-default-vector01"
+                    />
+                  </div>
+                </div>
+              </div>
+            </button>
+        </form>
+                </div>
+              </div>
+            </div>
+          <div class="home-page-buy-cars-by-default-group35">
+            <span class="home-page-buy-cars-by-default-text40">
+              <span>MotorHeaven</span>
+            </span>
+            </div>
+            <div class="home-page-buy-cars-by-default-group4">
+              <span class="home-page-buy-cars-by-default-text42">
+                <form action="#" th:action="@{/login}">
+                  <button type="submit">Login</button>
+                </form>
+              </span>
+            </div>
+            <div class="home-page-buy-cars-by-default-group3">
+              <span class="home-page-buy-cars-by-default-text44">
+                <form action="#" th:action="@{/register}">
+                <button type="submit">Register</button>
+              </form>
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

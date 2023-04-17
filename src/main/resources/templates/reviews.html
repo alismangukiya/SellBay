@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="english" xmlns:th="http://www.thymeleaf.org/">
+  <head>
+    <title>MotorHeaven</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta charset="utf-8" />
+    <meta property="twitter:card" content="summary_large_image" />
+
+    <style data-tag="reset-style-sheet">
+      html {  line-height: 1.15;}body {  margin: 0;}* {  box-sizing: border-box;  border-width: 0;  border-style: solid;}p,li,ul,pre,div,h1,h2,h3,h4,h5,h6,figure,blockquote,figcaption {  margin: 0;  padding: 0;}button {  background-color: transparent;}button,input,optgroup,select,textarea {  font-family: inherit;  font-size: 100%;  line-height: 1.15;  margin: 0;}button,select {  text-transform: none;}button,[type="button"],[type="reset"],[type="submit"] {  -webkit-appearance: button;}button::-moz-focus-inner,[type="button"]::-moz-focus-inner,[type="reset"]::-moz-focus-inner,[type="submit"]::-moz-focus-inner {  border-style: none;  padding: 0;}button:-moz-focus,[type="button"]:-moz-focus,[type="reset"]:-moz-focus,[type="submit"]:-moz-focus {  outline: 1px dotted ButtonText;}a {  color: inherit;  text-decoration: inherit;}input {  padding: 2px 4px;}img {  display: block;}html { scroll-behavior: smooth  }
+    </style>
+    <style data-tag="default-style-sheet">
+      html {
+        font-family: Inter;
+        font-size: 16px;
+      }
+
+      body {
+        font-weight: 400;
+        font-style:normal;
+        text-decoration: none;
+        text-transform: none;
+        letter-spacing: normal;
+        line-height: 1.15;
+        color: var(--dl-color-gray-black);
+        background-color: var(--dl-color-gray-white);
+
+      }
+    </style>
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    
+  </head>
+  <body>
+    <div>
+      <link href="../static/css/reviews.css" th:href="@{/css/reviews.css}" rel="stylesheet" />
+      <div class="customer-reviews-container">
+        <div class="customer-reviews-customer-reviews">
+          <img src="../static/img/rectangle344551weq200h.png" th:src="@{/img/rectangle344551weq200h.png}"
+            alt="Rectangle344551"
+            class="customer-reviews-rectangle34"
+          />
+          <span class="customer-reviews-text"><span>MotorHeaven</span></span>
+          <span class="customer-reviews-text02">
+            <span>Customer Reviews</span>
+          </span>
+          <img
+            src="../static/img/rectangle414560-papc-300w.png"
+            th:src="@{/img/rectangle414560-papc-300w.png}"
+            alt="Rectangle414560"
+            class="customer-reviews-rectangle41"
+          />
+          <span class="customer-reviews-text04">
+            <span>Overall rating</span><br>
+            <span th:text="${avgRating.get(0).averageRating}"></span>
+          </span>
+          <span>
+          <span class="customer-reviews-text06"><span></span></span>
+          <div class="customer-reviews-group13">
+          </div>
+          <div class="customer-reviews-group24">
+            <div class="customer-reviews-group15">
+            </div>
+            <div class="customer-reviews-group14">
+              <img
+                src="../static/img/ellipse14738-u6j9-200w.png"
+                th:src="@{/img/ellipse14738-u6j9-200w.png}"
+                alt="Ellipse14738"
+                class="customer-reviews-ellipse1"
+              />
+            </div>
+            <span class="customer-reviews-text08">
+              <span th:text="${review.get(0).reviewerName}"></span>
+            </span>
+            <span class="customer-reviews-text09">
+              <span th:text="'Rating: ' + ${review.get(0).rating}"></span>
+            </span>
+            <span class="customer-reviews-text10">
+              <span th:text="${review.get(0).reviewtext}"></span>
+            </span>
+          </div>
+          <div class="customer-reviews-group25">
+            <div class="customer-reviews-group151">
+            </div>
+            <div class="customer-reviews-group141">
+              <img
+                src="../static/img/ellipse13074-r04-200w.png"
+                th:src="@{/img/ellipse13074-r04-200w.png}"
+                alt="Ellipse13074"
+                class="customer-reviews-ellipse11"
+              />
+            </div>
+            <span class="customer-reviews-text12">
+              <span th:text="${review.get(1).reviewerName}"></span>
+            </span>
+            <span class="customer-reviews-text13">
+              <span th:text="'Rating: ' + ${review.get(1).rating}"></span>
+            </span>
+            <span class="customer-reviews-text14">
+              <span th:text="${review.get(1).reviewtext}"></span>
+            </span>
+          </div>
+          <div class="customer-reviews-group4">
+            <span class="customer-reviews-text16"><span>Login</span></span>
+          </div>
+          <div class="customer-reviews-group3">
+            <span class="customer-reviews-text18"><span>Register</span></span>
+          </div>
+          <div>
+            <img src ="../static/img/rectangle423076-8ag-300h.png" th:src="@{/img/rectangle423076-8ag-300h.png}"
+            alt="Rectangle423076"
+            class="customer-reviews-rectangle42"
+          />
+          <span>
+            <span class="customer-reviews-text22">Add your Review</span>
+          <form action="#" th:action="@{${url}}" class="customer-reviews-form" method="post">
+            <label for="name">Name:</label>
+            <input type="text" name="name" style="margin-left:10px">
+            <label for="rating" style="margin-left:25px">Rating:</label>
+            1 <input type = "radio" name = "rating" value = "1">
+            2 <input type = "radio" name = "rating" value = "2">
+            3 <input type = "radio" name = "rating" value = "3">
+            4 <input type = "radio" name = "rating" value = "4">
+            5 <input type = "radio" name = "rating" value = "5"><br>
+            <br><label for="review" style="margin-left:160px">Your Review(Max. 250 words)</label><br>
+            <input type="textbox" name="review" class="textbox"><br>
+            <br><input type="submit" value="Submit" style="margin-left:260px">
+          </form>
+          </span>
+        </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

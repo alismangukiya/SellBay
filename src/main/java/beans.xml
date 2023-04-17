@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<beans xmlns="http://www.springframework.org/schema/beans"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:foo="http://www.foo.example/schema/component"
+    xsi:schemaLocation="
+        http://www.springframework.org/schema/beans https://www.springframework.org/schema/beans/spring-beans.xsd
+        http://www.foo.example/schema/component http://www.foo.example/schema/component/component.xsd">
+        
+<bean id="dealerDtoObject" class="com.motorheaven.authentication.dealer.dto.DealerDTO"></bean>
+<bean id="userDtoObject" class="com.motorheaven.authentication.user.dto.UserDTO"></bean>
+<bean id="rentalDtoObject" class="com.motorheaven.authentication.renter.dto.RentalDTO"></bean>
+<bean id="rentalPageDtoObject" class="com.motorheaven.add_remove_cars_request.rental.dto.AddCarRentalPageDTO"></bean>
+<bean id="dealerPageDtoObject" class="com.motorheaven.add_remove_cars_request.dealer.dto.AddCarDealerPageDTO"></bean>
+</beans>

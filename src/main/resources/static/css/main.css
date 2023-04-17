@@ -1,0 +1,1543 @@
+.home-page-buy-cars-by-default-container {
+  min-height: 100vh;
+}
+.home-page-buy-cars-by-default-home-page-buy-cars-by-default {
+  width: 1350px;
+  height: 900px;
+  display: flex;
+  overflow: hidden;
+  position: relative;
+  align-items: flex-start;
+  flex-shrink: 0;
+  border-color: transparent;
+  background-color: rgba(255, 255, 255, 1);
+}
+
+.home-page-buy-cars-by-default-group37 {
+  top: 160px;
+  left: 30px;
+  width: 307px;
+  height: 39px;
+  display: flex;
+  padding: 0;
+  position: absolute;
+  align-self: auto;
+  box-sizing: border-box;
+  align-items: flex-start;
+  flex-shrink: 1;
+  border-color: transparent;
+  border-style: none;
+  border-width: 0;
+  margin-right: 0;
+  border-radius: 0px 0px 0px 0px;
+  margin-bottom: 0;
+  flex-direction: row;
+  justify-content: flex-start;
+  background-color: transparent;
+}
+.home-page-buy-cars-by-default-text {
+  color: rgba(0, 0, 0, 1);
+  height: auto;
+  position: absolute;
+  font-size: 32px;
+  align-self: auto;
+  font-style: Bold;
+  text-align: left;
+  font-family: Inter;
+  font-weight: 700;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.active{
+  font-weight: bold;
+}
+
+.home-page-buy-cars-by-default-text02 {
+  left: 171px;
+  width: 160px;
+  color: rgba(119, 119, 119, 1);
+  height: auto;
+  position: absolute;
+  font-size: 32px;
+  align-self: auto;
+  font-style: Bold;
+  text-align: left;
+  font-family: Inter;
+  font-weight: 700;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.home-page-buy-cars-by-default-text04 {
+  top: 160px;
+  left: 40px;
+  color: rgba(0, 0, 0, 1);
+  height: auto;
+  position: absolute;
+  font-size: 24px;
+  align-self: auto;
+  font-style: Bold;
+  text-align: left;
+  font-family: Inter;
+  font-weight: 700;
+  line-height: normal;
+  font-stretch: normal;
+  margin-right: 0;
+  margin-bottom: 0;
+  text-decoration: none;
+}
+.home-page-buy-cars-by-default-text06 {
+  top: 160px;
+  left: 191px;
+  color: rgba(0, 0, 0, 1);
+  height: auto;
+  position: absolute;
+  font-size: 24px;
+  align-self: auto;
+  font-style: Medium;
+  text-align: left;
+  font-family: Inter;
+  font-weight: 500;
+  line-height: normal;
+  font-stretch: normal;
+  margin-right: 0;
+  margin-bottom: 0;
+  text-decoration: none;
+}
+.home-page-buy-cars-by-default-group38 {
+  top: 247px;
+  left: 30px;
+  width: 272px;
+  height: 272px;
+  display: flex;
+  padding: 0;
+  position: absolute;
+  align-self: auto;
+  box-sizing: border-box;
+  align-items: flex-start;
+  flex-shrink: 1;
+  border-color: transparent;
+  border-style: none;
+  border-width: 0;
+  margin-right: 0;
+  border-radius: 0px 0px 0px 0px;
+  margin-bottom: 0;
+  flex-direction: row;
+  justify-content: flex-start;
+  background-color: transparent;
+}
+
+.home-page-buy-cars-by-default-frame11 {
+  top: 0px;
+  left: 0px;
+  width: 272px;
+  height: 272px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  border-color: transparent;
+}
+
+.home-page-buy-cars-by-default-group11 {
+  top: 0px;
+  left: 0px;
+  width: 272px;
+  height: 272px;
+  display: flex;
+  padding: 0;
+  position: absolute;
+  align-self: auto;
+  box-sizing: border-box;
+  align-items: flex-start;
+  flex-shrink: 1;
+  border-color: transparent;
+  border-style: none;
+  border-width: 0;
+  margin-right: 0;
+  border-radius: 0px 0px 0px 0px;
+  margin-bottom: 0;
+  flex-direction: row;
+  justify-content: flex-start;
+  background-color: rgba(217, 217, 217, 1);
+}
+
+.home-page-buy-cars-by-default-group10 {
+  top: 0px;
+  left: 0px;
+  width: 272px;
+  height: 272px;
+  display: flex;
+  padding: 0;
+  position: absolute;
+  align-self: auto;
+  box-sizing: border-box;
+  align-items: flex-start;
+  flex-shrink: 1;
+  border-color: transparent;
+  border-style: none;
+  border-width: 0;
+  margin-right: 0;
+  border-radius: 0px 0px 0px 0px;
+  margin-bottom: 0;
+  flex-direction: row;
+  justify-content: flex-start;
+  background-color: rgba(217, 217, 217, 1);
+}
+.home-page-buy-cars-by-default-rectangle50 {
+  top: 0px;
+  left: 0px;
+  width: 271px;
+  height: 199px;
+  position: absolute;
+  border-color: transparent;
+  border-radius: 10px;
+}
+.home-page-buy-cars-by-default-text08 {
+  top: 231.83892822265625px;
+  left: 14.603903770446777px;
+  color: rgba(0, 0, 0, 1);
+  width: 200px;
+  height: auto;
+  position: absolute;
+  font-size: 16px;
+  align-self: auto;
+  font-style: Regular;
+  text-align: left;
+  font-family: Roboto;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.home-page-buy-cars-by-default-text10 {
+  top: 209.93289184570312px;
+  left: 13.691128730773926px;
+  color: rgba(0, 0, 0, 1);
+  width: 147px;
+  height: auto;
+  position: absolute;
+  font-size: 20px;
+  align-self: auto;
+  font-style: Regular;
+  text-align: left;
+  font-family: Roboto;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+
+.home-page-buy-cars-by-default-group {
+  top: 20.250141143798828px;
+  left: 23.610260009765625px;
+  width: 141.66024780273438px;
+  height: 121.49998474121094px;
+  display: flex;
+  padding: 0;
+  position: absolute;
+  align-self: auto;
+  box-sizing: border-box;
+  align-items: flex-start;
+  flex-shrink: 1;
+  border-color: transparent;
+  border-style: none;
+  border-width: 0;
+  border-radius: 0px 0px 0px 0px;
+  flex-direction: row;
+  justify-content: flex-start;
+  background-color: transparent;
+}
+.home-page-buy-cars-by-default-vector {
+  top: 0px;
+  left: 0px;
+  width: 142px;
+  height: 121px;
+  position: absolute;
+}
+.home-page-buy-cars-by-default-vector01 {
+  top: 0px;
+  left: 2px;
+  width: 220px;
+  height: 170px;
+  position: absolute;
+}
+.home-page-buy-cars-by-default-group39 {
+  top: 247px;
+  left: 362px;
+  width: 272px;
+  height: 272px;
+  display: flex;
+  padding: 0;
+  position: absolute;
+  align-self: auto;
+  box-sizing: border-box;
+  align-items: flex-start;
+  flex-shrink: 1;
+  border-color: transparent;
+  border-style: none;
+  border-width: 0;
+  margin-right: 0;
+  border-radius: 0px 0px 0px 0px;
+  margin-bottom: 0;
+  flex-direction: row;
+  justify-content: flex-start;
+  background-color: transparent;
+}
+.home-page-buy-cars-by-default-frame111 {
+  top: 0px;
+  left: 0px;
+  width: 267px;
+  height: 272px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  border-color: transparent;
+}
+.home-page-buy-cars-by-default-group101 {
+  top: 0px;
+  left: 0px;
+  width: 267px;
+  height: 272px;
+  display: flex;
+  padding: 0;
+  position: absolute;
+  align-self: auto;
+  box-sizing: border-box;
+  align-items: flex-start;
+  flex-shrink: 1;
+  border-color: transparent;
+  border-style: none;
+  border-width: 0;
+  margin-right: 0;
+  border-radius: 0px 0px 0px 0px;
+  margin-bottom: 0;
+  flex-direction: row;
+  justify-content: flex-start;
+  background-color: rgba(217, 217, 217, 1);
+}
+.home-page-buy-cars-by-default-rectangle501 {
+  top: 0px;
+  left: 0px;
+  width: 266px;
+  height: 199px;
+  position: absolute;
+  border-color: transparent;
+  border-radius: 10px;
+}
+.home-page-buy-cars-by-default-text12 {
+  top: 250.83892822265625px;
+  left: 14.335570335388184px;
+  color: rgba(0, 0, 0, 1);
+  width: 150px;
+  height: auto;
+  position: absolute;
+  font-size: 14px;
+  align-self: auto;
+  font-style: Regular;
+  text-align: left;
+  font-family: Roboto;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.home-page-buy-cars-by-default-text14 {
+  top: 209.93289184570312px;
+  left: 13.439597129821777px;
+  color: rgba(0, 0, 0, 1);
+  width: 144px;
+  height: auto;
+  position: absolute;
+  font-size: 24px;
+  align-self: auto;
+  font-style: Regular;
+  text-align: left;
+  font-family: Roboto;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.home-page-buy-cars-by-default-frameiconimage1 {
+  top: 18px;
+  left: 42px;
+  width: 182px;
+  height: 162px;
+  display: flex;
+  padding: 0;
+  position: absolute;
+  align-self: auto;
+  box-sizing: border-box;
+  align-items: flex-start;
+  flex-shrink: 1;
+  border-color: transparent;
+  border-style: none;
+  border-width: 0;
+  border-radius: 0px 0px 0px 0px;
+  flex-direction: row;
+  justify-content: flex-start;
+  background-color: transparent;
+}
+.home-page-buy-cars-by-default-group1 {
+  top: 20.250141143798828px;
+  left: 22.75039291381836px;
+  width: 136.50001525878906px;
+  height: 121.49998474121094px;
+  display: flex;
+  padding: 0;
+  position: absolute;
+  align-self: auto;
+  box-sizing: border-box;
+  align-items: flex-start;
+  flex-shrink: 1;
+  border-color: transparent;
+  border-style: none;
+  border-width: 0;
+  border-radius: 0px 0px 0px 0px;
+  flex-direction: row;
+  justify-content: flex-start;
+  background-color: transparent;
+}
+.home-page-buy-cars-by-default-vector02 {
+  top: 0px;
+  left: 0px;
+  width: 137px;
+  height: 121px;
+  position: absolute;
+}
+.home-page-buy-cars-by-default-vector03 {
+  top: 26.99978256225586px;
+  left: 26.542409896850586px;
+  width: 23px;
+  height: 20px;
+  position: absolute;
+}
+.home-page-buy-cars-by-default-group45 {
+  top: 567px;
+  left: 1026px;
+  width: 272px;
+  height: 272px;
+  display: flex;
+  padding: 0;
+  position: absolute;
+  align-self: auto;
+  box-sizing: border-box;
+  align-items: flex-start;
+  flex-shrink: 1;
+  border-color: transparent;
+  border-style: none;
+  border-width: 0;
+  margin-right: 0;
+  border-radius: 0px 0px 0px 0px;
+  margin-bottom: 0;
+  flex-direction: row;
+  justify-content: flex-start;
+  background-color: transparent;
+}
+.home-page-buy-cars-by-default-frame112 {
+  top: 0px;
+  left: 0px;
+  width: 267px;
+  height: 272px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  border-color: transparent;
+}
+.home-page-buy-cars-by-default-group102 {
+  top: 0px;
+  left: 0px;
+  width: 267px;
+  height: 272px;
+  display: flex;
+  padding: 0;
+  position: absolute;
+  align-self: auto;
+  box-sizing: border-box;
+  align-items: flex-start;
+  flex-shrink: 1;
+  border-color: transparent;
+  border-style: none;
+  border-width: 0;
+  margin-right: 0;
+  border-radius: 0px 0px 0px 0px;
+  margin-bottom: 0;
+  flex-direction: row;
+  justify-content: flex-start;
+  background-color: rgba(217, 217, 217, 1);
+}
+.home-page-buy-cars-by-default-rectangle502 {
+  top: 0px;
+  left: 0px;
+  width: 266px;
+  height: 199px;
+  position: absolute;
+  border-color: transparent;
+  border-radius: 10px;
+}
+.home-page-buy-cars-by-default-text16 {
+  top: 231.83892822265625px;
+  left: 14.335570335388184px;
+  color: rgba(0, 0, 0, 1);
+  width: 82px;
+  height: auto;
+  position: absolute;
+  font-size: 20px;
+  align-self: auto;
+  font-style: Regular;
+  text-align: left;
+  font-family: Roboto;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.home-page-buy-cars-by-default-text18 {
+  top: 209.93289184570312px;
+  left: 13.439597129821777px;
+  color: rgba(0, 0, 0, 1);
+  width: 144px;
+  height: auto;
+  position: absolute;
+  font-size: 24px;
+  align-self: auto;
+  font-style: Regular;
+  text-align: left;
+  font-family: Roboto;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.home-page-buy-cars-by-default-frameiconimage2 {
+  top: 18px;
+  left: 42px;
+  width: 182px;
+  height: 162px;
+  display: flex;
+  padding: 0;
+  position: absolute;
+  align-self: auto;
+  box-sizing: border-box;
+  align-items: flex-start;
+  flex-shrink: 1;
+  border-color: transparent;
+  border-style: none;
+  border-width: 0;
+  border-radius: 0px 0px 0px 0px;
+  flex-direction: row;
+  justify-content: flex-start;
+  background-color: transparent;
+}
+.home-page-buy-cars-by-default-group2 {
+  top: 20.250141143798828px;
+  left: 22.75039291381836px;
+  width: 136.50001525878906px;
+  height: 121.49998474121094px;
+  display: flex;
+  padding: 0;
+  position: absolute;
+  align-self: auto;
+  box-sizing: border-box;
+  align-items: flex-start;
+  flex-shrink: 1;
+  border-color: transparent;
+  border-style: none;
+  border-width: 0;
+  border-radius: 0px 0px 0px 0px;
+  flex-direction: row;
+  justify-content: flex-start;
+  background-color: transparent;
+}
+.home-page-buy-cars-by-default-vector04 {
+  top: 0px;
+  left: 0px;
+  width: 137px;
+  height: 121px;
+  position: absolute;
+}
+.home-page-buy-cars-by-default-vector05 {
+  top: 26.99978256225586px;
+  left: 26.542409896850586px;
+  width: 23px;
+  height: 20px;
+  position: absolute;
+}
+.home-page-buy-cars-by-default-group44 {
+  top: 567px;
+  left: 694px;
+  width: 272px;
+  height: 272px;
+  display: flex;
+  padding: 0;
+  position: absolute;
+  align-self: auto;
+  box-sizing: border-box;
+  align-items: flex-start;
+  flex-shrink: 1;
+  border-color: transparent;
+  border-style: none;
+  border-width: 0;
+  margin-right: 0;
+  border-radius: 0px 0px 0px 0px;
+  margin-bottom: 0;
+  flex-direction: row;
+  justify-content: flex-start;
+  background-color: transparent;
+}
+.home-page-buy-cars-by-default-frame113 {
+  top: 0px;
+  left: 0px;
+  width: 267px;
+  height: 272px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  border-color: transparent;
+}
+.home-page-buy-cars-by-default-group103 {
+  top: 0px;
+  left: 0px;
+  width: 267px;
+  height: 272px;
+  display: flex;
+  padding: 0;
+  position: absolute;
+  align-self: auto;
+  box-sizing: border-box;
+  align-items: flex-start;
+  flex-shrink: 1;
+  border-color: transparent;
+  border-style: none;
+  border-width: 0;
+  margin-right: 0;
+  border-radius: 0px 0px 0px 0px;
+  margin-bottom: 0;
+  flex-direction: row;
+  justify-content: flex-start;
+  background-color: rgba(217, 217, 217, 1);
+}
+.home-page-buy-cars-by-default-rectangle503 {
+  top: 0px;
+  left: 0px;
+  width: 266px;
+  height: 199px;
+  position: absolute;
+  border-color: transparent;
+  border-radius: 10px;
+}
+.home-page-buy-cars-by-default-text20 {
+  top: 231.83892822265625px;
+  left: 14.335570335388184px;
+  color: rgba(0, 0, 0, 1);
+  width: 82px;
+  height: auto;
+  position: absolute;
+  font-size: 20px;
+  align-self: auto;
+  font-style: Regular;
+  text-align: left;
+  font-family: Roboto;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.home-page-buy-cars-by-default-text22 {
+  top: 209.93289184570312px;
+  left: 13.439597129821777px;
+  color: rgba(0, 0, 0, 1);
+  width: 144px;
+  height: auto;
+  position: absolute;
+  font-size: 24px;
+  align-self: auto;
+  font-style: Regular;
+  text-align: left;
+  font-family: Roboto;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.home-page-buy-cars-by-default-frameiconimage3 {
+  top: 18px;
+  left: 42px;
+  width: 182px;
+  height: 162px;
+  display: flex;
+  padding: 0;
+  position: absolute;
+  align-self: auto;
+  box-sizing: border-box;
+  align-items: flex-start;
+  flex-shrink: 1;
+  border-color: transparent;
+  border-style: none;
+  border-width: 0;
+  border-radius: 0px 0px 0px 0px;
+  flex-direction: row;
+  justify-content: flex-start;
+  background-color: transparent;
+}
+.home-page-buy-cars-by-default-group3 {
+  top: 20.250141143798828px;
+  left: 22.75039291381836px;
+  width: 136.50001525878906px;
+  height: 121.49998474121094px;
+  display: flex;
+  padding: 0;
+  position: absolute;
+  align-self: auto;
+  box-sizing: border-box;
+  align-items: flex-start;
+  flex-shrink: 1;
+  border-color: transparent;
+  border-style: none;
+  border-width: 0;
+  border-radius: 0px 0px 0px 0px;
+  flex-direction: row;
+  justify-content: flex-start;
+  background-color: transparent;
+}
+.home-page-buy-cars-by-default-vector06 {
+  top: 0px;
+  left: 0px;
+  width: 137px;
+  height: 121px;
+  position: absolute;
+}
+.home-page-buy-cars-by-default-vector07 {
+  top: 26.99978256225586px;
+  left: 26.542409896850586px;
+  width: 23px;
+  height: 20px;
+  position: absolute;
+}
+.home-page-buy-cars-by-default-group43 {
+  top: 567px;
+  left: 362px;
+  width: 272px;
+  height: 272px;
+  display: flex;
+  padding: 0;
+  position: absolute;
+  align-self: auto;
+  box-sizing: border-box;
+  align-items: flex-start;
+  flex-shrink: 1;
+  border-color: transparent;
+  border-style: none;
+  border-width: 0;
+  margin-right: 0;
+  border-radius: 0px 0px 0px 0px;
+  margin-bottom: 0;
+  flex-direction: row;
+  justify-content: flex-start;
+  background-color: transparent;
+}
+.home-page-buy-cars-by-default-frame114 {
+  top: 0px;
+  left: 0px;
+  width: 267px;
+  height: 272px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  border-color: transparent;
+}
+.home-page-buy-cars-by-default-group104 {
+  top: 0px;
+  left: 0px;
+  width: 267px;
+  height: 272px;
+  display: flex;
+  padding: 0;
+  position: absolute;
+  align-self: auto;
+  box-sizing: border-box;
+  align-items: flex-start;
+  flex-shrink: 1;
+  border-color: transparent;
+  border-style: none;
+  border-width: 0;
+  margin-right: 0;
+  border-radius: 0px 0px 0px 0px;
+  margin-bottom: 0;
+  flex-direction: row;
+  justify-content: flex-start;
+  background-color: rgba(217, 217, 217, 1);
+}
+.home-page-buy-cars-by-default-rectangle504 {
+  top: 0px;
+  left: 0px;
+  width: 266px;
+  height: 199px;
+  position: absolute;
+  border-color: transparent;
+  border-radius: 10px;
+}
+.home-page-buy-cars-by-default-text24 {
+  top: 231.83892822265625px;
+  left: 14.335570335388184px;
+  color: rgba(0, 0, 0, 1);
+  width: 82px;
+  height: auto;
+  position: absolute;
+  font-size: 20px;
+  align-self: auto;
+  font-style: Regular;
+  text-align: left;
+  font-family: Roboto;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.home-page-buy-cars-by-default-text26 {
+  top: 209.93289184570312px;
+  left: 13.439597129821777px;
+  color: rgba(0, 0, 0, 1);
+  width: 144px;
+  height: auto;
+  position: absolute;
+  font-size: 24px;
+  align-self: auto;
+  font-style: Regular;
+  text-align: left;
+  font-family: Roboto;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.home-page-buy-cars-by-default-frameiconimage4 {
+  top: 18px;
+  left: 42px;
+  width: 182px;
+  height: 162px;
+  display: flex;
+  padding: 0;
+  position: absolute;
+  align-self: auto;
+  box-sizing: border-box;
+  align-items: flex-start;
+  flex-shrink: 1;
+  border-color: transparent;
+  border-style: none;
+  border-width: 0;
+  border-radius: 0px 0px 0px 0px;
+  flex-direction: row;
+  justify-content: flex-start;
+  background-color: transparent;
+}
+.home-page-buy-cars-by-default-group4 {
+  top: 20.250141143798828px;
+  left: 22.75039291381836px;
+  width: 136.50001525878906px;
+  height: 121.49998474121094px;
+  display: flex;
+  padding: 0;
+  position: absolute;
+  align-self: auto;
+  box-sizing: border-box;
+  align-items: flex-start;
+  flex-shrink: 1;
+  border-color: transparent;
+  border-style: none;
+  border-width: 0;
+  border-radius: 0px 0px 0px 0px;
+  flex-direction: row;
+  justify-content: flex-start;
+  background-color: transparent;
+}
+.home-page-buy-cars-by-default-vector08 {
+  top: 0px;
+  left: 0px;
+  width: 137px;
+  height: 121px;
+  position: absolute;
+}
+.home-page-buy-cars-by-default-vector09 {
+  top: 26.99978256225586px;
+  left: 26.542409896850586px;
+  width: 23px;
+  height: 20px;
+  position: absolute;
+}
+.home-page-buy-cars-by-default-group42 {
+  top: 567px;
+  left: 30px;
+  width: 272px;
+  height: 272px;
+  display: flex;
+  padding: 0;
+  position: absolute;
+  align-self: auto;
+  box-sizing: border-box;
+  align-items: flex-start;
+  flex-shrink: 1;
+  border-color: transparent;
+  border-style: none;
+  border-width: 0;
+  margin-right: 0;
+  border-radius: 0px 0px 0px 0px;
+  margin-bottom: 0;
+  flex-direction: row;
+  justify-content: flex-start;
+  background-color: transparent;
+}
+.home-page-buy-cars-by-default-frame115 {
+  top: 0px;
+  left: 0px;
+  width: 267px;
+  height: 272px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  border-color: transparent;
+}
+.home-page-buy-cars-by-default-group105 {
+  top: 0px;
+  left: 0px;
+  width: 267px;
+  height: 272px;
+  display: flex;
+  padding: 0;
+  position: absolute;
+  align-self: auto;
+  box-sizing: border-box;
+  align-items: flex-start;
+  flex-shrink: 1;
+  border-color: transparent;
+  border-style: none;
+  border-width: 0;
+  margin-right: 0;
+  border-radius: 0px 0px 0px 0px;
+  margin-bottom: 0;
+  flex-direction: row;
+  justify-content: flex-start;
+  background-color: rgba(217, 217, 217, 1);
+}
+.home-page-buy-cars-by-default-rectangle505 {
+  top: 0px;
+  left: 0px;
+  width: 266px;
+  height: 199px;
+  position: absolute;
+  border-color: transparent;
+  border-radius: 10px;
+}
+.home-page-buy-cars-by-default-text28 {
+  top: 231.83892822265625px;
+  left: 14.335570335388184px;
+  color: rgba(0, 0, 0, 1);
+  width: 82px;
+  height: auto;
+  position: absolute;
+  font-size: 20px;
+  align-self: auto;
+  font-style: Regular;
+  text-align: left;
+  font-family: Roboto;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.home-page-buy-cars-by-default-text30 {
+  top: 209.93289184570312px;
+  left: 13.439597129821777px;
+  color: rgba(0, 0, 0, 1);
+  width: 144px;
+  height: auto;
+  position: absolute;
+  font-size: 24px;
+  align-self: auto;
+  font-style: Regular;
+  text-align: left;
+  font-family: Roboto;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.home-page-buy-cars-by-default-frameiconimage5 {
+  top: 18px;
+  left: 42px;
+  width: 182px;
+  height: 162px;
+  display: flex;
+  padding: 0;
+  position: absolute;
+  align-self: auto;
+  box-sizing: border-box;
+  align-items: flex-start;
+  flex-shrink: 1;
+  border-color: transparent;
+  border-style: none;
+  border-width: 0;
+  border-radius: 0px 0px 0px 0px;
+  flex-direction: row;
+  justify-content: flex-start;
+  background-color: transparent;
+}
+.home-page-buy-cars-by-default-group5 {
+  top: 20.250141143798828px;
+  left: 22.75039291381836px;
+  width: 136.50001525878906px;
+  height: 121.49998474121094px;
+  display: flex;
+  padding: 0;
+  position: absolute;
+  align-self: auto;
+  box-sizing: border-box;
+  align-items: flex-start;
+  flex-shrink: 1;
+  border-color: transparent;
+  border-style: none;
+  border-width: 0;
+  border-radius: 0px 0px 0px 0px;
+  flex-direction: row;
+  justify-content: flex-start;
+  background-color: transparent;
+}
+.home-page-buy-cars-by-default-vector10 {
+  top: 0px;
+  left: 0px;
+  width: 137px;
+  height: 121px;
+  position: absolute;
+}
+.home-page-buy-cars-by-default-vector11 {
+  top: 26.99978256225586px;
+  left: 26.542409896850586px;
+  width: 23px;
+  height: 20px;
+  position: absolute;
+}
+.home-page-buy-cars-by-default-group40 {
+  top: 247px;
+  left: 1026px;
+  width: 267px;
+  height: 272px;
+  display: flex;
+  padding: 0;
+  position: absolute;
+  align-self: auto;
+  box-sizing: border-box;
+  align-items: flex-start;
+  flex-shrink: 1;
+  border-color: transparent;
+  border-style: none;
+  border-width: 0;
+  margin-right: 0;
+  border-radius: 0px 0px 0px 0px;
+  margin-bottom: 0;
+  flex-direction: row;
+  justify-content: flex-start;
+  background-color: transparent;
+}
+.home-page-buy-cars-by-default-frame116 {
+  top: 0px;
+  left: 0px;
+  width: 267px;
+  height: 272px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  border-color: transparent;
+}
+.home-page-buy-cars-by-default-group106 {
+  top: 0px;
+  left: 0px;
+  width: 267px;
+  height: 272px;
+  display: flex;
+  padding: 0;
+  position: absolute;
+  align-self: auto;
+  box-sizing: border-box;
+  align-items: flex-start;
+  flex-shrink: 1;
+  border-color: transparent;
+  border-style: none;
+  border-width: 0;
+  margin-right: 0;
+  border-radius: 0px 0px 0px 0px;
+  margin-bottom: 0;
+  flex-direction: row;
+  justify-content: flex-start;
+  background-color: rgba(217, 217, 217, 1);
+}
+.home-page-buy-cars-by-default-rectangle506 {
+  top: 0px;
+  left: 0px;
+  width: 266px;
+  height: 199px;
+  position: absolute;
+  border-color: transparent;
+  border-radius: 10px;
+}
+.home-page-buy-cars-by-default-text32 {
+  top: 231.83892822265625px;
+  left: 14.335570335388184px;
+  color: rgba(0, 0, 0, 1);
+  width: 82px;
+  height: auto;
+  position: absolute;
+  font-size: 20px;
+  align-self: auto;
+  font-style: Regular;
+  text-align: left;
+  font-family: Roboto;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.home-page-buy-cars-by-default-text34 {
+  top: 209.93289184570312px;
+  left: 13.439597129821777px;
+  color: rgba(0, 0, 0, 1);
+  width: 144px;
+  height: auto;
+  position: absolute;
+  font-size: 24px;
+  align-self: auto;
+  font-style: Regular;
+  text-align: left;
+  font-family: Roboto;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.home-page-buy-cars-by-default-frameiconimage6 {
+  top: 18px;
+  left: 42px;
+  width: 182px;
+  height: 162px;
+  display: flex;
+  padding: 0;
+  position: absolute;
+  align-self: auto;
+  box-sizing: border-box;
+  align-items: flex-start;
+  flex-shrink: 1;
+  border-color: transparent;
+  border-style: none;
+  border-width: 0;
+  border-radius: 0px 0px 0px 0px;
+  flex-direction: row;
+  justify-content: flex-start;
+  background-color: transparent;
+}
+.home-page-buy-cars-by-default-group6 {
+  top: 20.250141143798828px;
+  left: 22.75039291381836px;
+  width: 136.50001525878906px;
+  height: 121.49998474121094px;
+  display: flex;
+  padding: 0;
+  position: absolute;
+  align-self: auto;
+  box-sizing: border-box;
+  align-items: flex-start;
+  flex-shrink: 1;
+  border-color: transparent;
+  border-style: none;
+  border-width: 0;
+  border-radius: 0px 0px 0px 0px;
+  flex-direction: row;
+  justify-content: flex-start;
+  background-color: transparent;
+}
+.home-page-buy-cars-by-default-vector12 {
+  top: 0px;
+  left: 0px;
+  width: 137px;
+  height: 121px;
+  position: absolute;
+}
+.home-page-buy-cars-by-default-vector13 {
+  top: 26.99978256225586px;
+  left: 26.542409896850586px;
+  width: 23px;
+  height: 20px;
+  position: absolute;
+}
+.home-page-buy-cars-by-default-group41 {
+  top: 247px;
+  left: 694px;
+  width: 272px;
+  height: 272px;
+  display: flex;
+  padding: 0;
+  position: absolute;
+  align-self: auto;
+  box-sizing: border-box;
+  align-items: flex-start;
+  flex-shrink: 1;
+  border-color: transparent;
+  border-style: none;
+  border-width: 0;
+  margin-right: 0;
+  border-radius: 0px 0px 0px 0px;
+  margin-bottom: 0;
+  flex-direction: row;
+  justify-content: flex-start;
+  background-color: transparent;
+}
+.home-page-buy-cars-by-default-frame117 {
+  top: 0px;
+  left: 0px;
+  width: 267px;
+  height: 272px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  border-color: transparent;
+}
+.home-page-buy-cars-by-default-group107 {
+  top: 0px;
+  left: 0px;
+  width: 267px;
+  height: 272px;
+  display: flex;
+  padding: 0;
+  position: absolute;
+  align-self: auto;
+  box-sizing: border-box;
+  align-items: flex-start;
+  flex-shrink: 1;
+  border-color: transparent;
+  border-style: none;
+  border-width: 0;
+  margin-right: 0;
+  border-radius: 0px 0px 0px 0px;
+  margin-bottom: 0;
+  flex-direction: row;
+  justify-content: flex-start;
+  background-color: rgba(217, 217, 217, 1);
+}
+.home-page-buy-cars-by-default-rectangle507 {
+  top: 0px;
+  left: 0px;
+  width: 266px;
+  height: 199px;
+  position: absolute;
+  border-color: transparent;
+  border-radius: 10px;
+}
+.home-page-buy-cars-by-default-text36 {
+  top: 231.83892822265625px;
+  left: 14.335570335388184px;
+  color: rgba(0, 0, 0, 1);
+  width: 82px;
+  height: auto;
+  position: absolute;
+  font-size: 20px;
+  align-self: auto;
+  font-style: Regular;
+  text-align: left;
+  font-family: Roboto;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.home-page-buy-cars-by-default-text38 {
+  top: 209.93289184570312px;
+  left: 13.439597129821777px;
+  color: rgba(0, 0, 0, 1);
+  width: 144px;
+  height: auto;
+  position: absolute;
+  font-size: 24px;
+  align-self: auto;
+  font-style: Regular;
+  text-align: left;
+  font-family: Roboto;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.home-page-buy-cars-by-default-frameiconimage7 {
+  top: 18px;
+  left: 42px;
+  width: 182px;
+  height: 162px;
+  display: flex;
+  padding: 0;
+  position: absolute;
+  align-self: auto;
+  box-sizing: border-box;
+  align-items: flex-start;
+  flex-shrink: 1;
+  border-color: transparent;
+  border-style: none;
+  border-width: 0;
+  border-radius: 0px 0px 0px 0px;
+  flex-direction: row;
+  justify-content: flex-start;
+  background-color: transparent;
+}
+.home-page-buy-cars-by-default-group7 {
+  top: 20.250141143798828px;
+  left: 22.75039291381836px;
+  width: 136.50001525878906px;
+  height: 121.49998474121094px;
+  display: flex;
+  padding: 0;
+  position: absolute;
+  align-self: auto;
+  box-sizing: border-box;
+  align-items: flex-start;
+  flex-shrink: 1;
+  border-color: transparent;
+  border-style: none;
+  border-width: 0;
+  border-radius: 0px 0px 0px 0px;
+  flex-direction: row;
+  justify-content: flex-start;
+  background-color: transparent;
+}
+.home-page-buy-cars-by-default-vector14 {
+  top: 0px;
+  left: 0px;
+  width: 137px;
+  height: 121px;
+  position: absolute;
+}
+.home-page-buy-cars-by-default-vector15 {
+  top: 26.99978256225586px;
+  left: 26.542409896850586px;
+  width: 23px;
+  height: 20px;
+  position: absolute;
+}
+.home-page-buy-cars-by-default-group35 {
+  top: 0px;
+  left: 0px;
+  width: 1350px;
+  height: 128px;
+  display: flex;
+  padding: 0;
+  position: absolute;
+  align-self: auto;
+  box-sizing: border-box;
+  align-items: flex-start;
+  flex-shrink: 1;
+  border-color: transparent;
+  border-style: none;
+  border-width: 0;
+  margin-right: 0;
+  border-radius: 0px 0px 0px 0px;
+  margin-bottom: 0;
+  padding-right: 0;
+  flex-direction: row;
+  justify-content: flex-start;
+  background-color: rgba(187, 187, 187, 1);
+}
+.home-page-buy-cars-by-default-text40 {
+  top: 38px;
+  left: 60px;
+  color: rgba(0, 0, 0, 1);
+  width: 260px;
+  height: auto;
+  position: absolute;
+  font-size: 46px;
+  align-self: auto;
+  font-style: Bold;
+  text-align: left;
+  font-family: Inter;
+  font-weight: 700;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.home-page-buy-cars-by-default-rectangle35 {
+  top: 30px;
+  left: 396.95001220703125px;
+  width: 660px;
+  height: 60px;
+  position: absolute;
+  border-color: transparent;
+  border-radius: 50px;
+}
+.home-page-buy-cars-by-default-group5 {
+  top: 42px;
+  left: 34px;
+  width: 37.400001525878906px;
+  height: 26.95001983642578px;
+  display: flex;
+  padding: 0;
+  position: absolute;
+  align-self: auto;
+  box-sizing: border-box;
+  align-items: flex-start;
+  flex-shrink: 1;
+  border-color: transparent;
+  border-style: none;
+  border-width: 0;
+  border-radius: 0px 0px 0px 0px;
+  flex-direction: row;
+  justify-content: flex-start;
+  background-color: transparent;
+}
+.home-page-buy-cars-by-default-rectangle38 {
+  top: 0px;
+  left: 0px;
+  width: 37px;
+  height: 6px;
+  position: absolute;
+  border-color: transparent;
+  border-radius: 20px;
+}
+.home-page-buy-cars-by-default-rectangle39 {
+  top: 10.449960708618164px;
+  left: 0px;
+  width: 37px;
+  height: 6px;
+  position: absolute;
+  border-color: transparent;
+  border-radius: 20px;
+}
+.home-page-buy-cars-by-default-rectangle40 {
+  top: 20.900020599365234px;
+  left: 0px;
+  width: 37px;
+  height: 6px;
+  position: absolute;
+  border-color: transparent;
+  border-radius: 20px;
+}
+.home-page-buy-cars-by-default-group4 {
+  top: 29px;
+  left: 800px;
+  width: 209.5px;
+  height: 60px;
+  display: flex;
+  padding: 0;
+  position: absolute;
+  align-self: auto;
+  box-sizing: border-box;
+  align-items: flex-start;
+  flex-shrink: 1;
+  border-color: transparent;
+  border-style: none;
+  border-width: 0;
+  border-radius: 0px 0px 0px 0px;
+  flex-direction: row;
+  justify-content: flex-start;
+  background-color: rgba(112, 112, 112, 1);
+}
+.home-page-buy-cars-by-default-text42 {
+  top: 11px;
+  left: 59px;
+  color: rgba(255, 255, 255, 1);
+  width: 89px;
+  height: auto;
+  position: absolute;
+  font-size: 32px;
+  align-self: auto;
+  font-style: Medium;
+  text-align: left;
+  font-family: Inter;
+  font-weight: 500;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.home-page-buy-cars-by-default-group3 {
+  top: 27px;
+  left: 1100px;
+  width: 210.5px;
+  height: 60px;
+  display: flex;
+  padding: 0;
+  position: absolute;
+  align-self: auto;
+  box-sizing: border-box;
+  align-items: flex-start;
+  flex-shrink: 1;
+  border-color: transparent;
+  border-style: none;
+  border-width: 0;
+  border-radius: 0px 0px 0px 0px;
+  flex-direction: row;
+  justify-content: flex-start;
+  background-color: rgba(112, 112, 112, 1);
+}
+.home-page-buy-cars-by-default-text44 {
+  top: 11px;
+  left: 39px;
+  color: rgba(255, 255, 255, 1);
+  width: 134px;
+  height: auto;
+  position: absolute;
+  font-size: 28px;
+  align-self: auto;
+  font-style: Medium;
+  text-align: left;
+  font-family: Inter;
+  font-weight: 500;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.home-page-buy-cars-by-default-frameiconsearchoutline {
+  top: 46px;
+  left: 1003px;
+  width: 28.899999618530273px;
+  height: 34px;
+  display: flex;
+  padding: 0;
+  position: absolute;
+  align-self: auto;
+  box-sizing: border-box;
+  align-items: flex-start;
+  flex-shrink: 1;
+  border-color: transparent;
+  border-style: none;
+  border-width: 0;
+  border-radius: 0px 0px 0px 0px;
+  flex-direction: row;
+  justify-content: flex-start;
+  background-color: transparent;
+}
+.home-page-buy-cars-by-default-vector16 {
+  top: 4.25px;
+  left: 3.612548828125px;
+  width: 22px;
+  height: 26px;
+  position: absolute;
+}
+.home-page-buy-cars-by-default-text64 {
+  top: 15px;
+  left: 30px;
+  color: rgba(255, 255, 255, 1);
+  width: 160px;
+  height: auto;
+  position: absolute;
+  font-size: 24px;
+  align-self: auto;
+  font-style: Medium;
+  text-align: left;
+  font-family: Inter;
+  font-weight: 500;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+
+.deactivate{
+  visibility: hidden;
+}
+
+.activate{
+  text-decoration: none;
+}

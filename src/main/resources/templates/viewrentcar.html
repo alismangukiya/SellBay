@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org/">
+<head>
+  <meta charset="UTF-8">
+  <title>MotorHeaven</title>
+</head>
+<body>
+<link href="../static/css/main.css" th:href="@{/css/main.css}" rel="stylesheet" />
+<table style="margin-left: 120px">
+<tr>
+<td><img src="${Car.imageUrl}" th:src="@{${Car.imageUrl}}" style="width: 600px; height: 660px;"></img></td>
+<td>
+<table class="center" style="border:2px solid black; margin-top:155px;">
+  <tr>
+    <td><h4>Model</h4></td>
+    <td><h4 th:text="${Car.model}"></h4></td>
+  </tr>
+
+  <tr>
+    <td><h4>Company</h4></td>
+    <td><h4 th:text="${Car.company}"></h4></td>
+  </tr>
+
+  <tr>
+    <td><h4>Price</h4></td>
+    <td><h4 th:text="${Car.price}">CAD</h4></td>
+  </tr>
+
+  <tr>
+    <td><h4>Fuel Type</h4></td>
+    <td><h4 th:text="${Car.fuelType}"></h4></td>
+  </tr>
+
+  <tr>
+    <td><h4>Mileage</h4></td>
+    <td><h4 th:text="${Car.mileage}"></h4></td>
+  </tr>
+
+  <tr>
+    <td><h4>Transmission</h4></td>
+    <td><h4 th:text="${Car.transmission}"></h4></td>
+  </tr>
+
+  <tr>
+    <td><h4>Status</h4></td>
+    <td><h4 th:text="${Car.status}"></h4></td>
+  </tr>
+
+  <tr>
+    <td><h4>Condition</h4></td>
+    <td><h4 th:text="${Car.condition}"></h4></td>
+  </tr>
+
+  <tr>
+    <td><h4>Posted On</h4></td>
+    <td><h4 th:text="${Car.postedOn}"></h4></td>
+  </tr>
+</table>
+</td>
+</tr>
+</table>
+<br>
+<form action="#" th:action=@{'/makeReservation/'+${Car.id}} method="get" id="form" style="margin-left:740px;">
+  <button class="btn btn-primary btn-lg btn-block" type="submit">Make Reservation</button>
+</form>
+<form action="#" th:action=@{'/viewNewCar/'+${Car.id}+'/reviews'} method="get" id="form1" style="margin-left:750px;">
+  <button class="btn btn-primary btn-lg btn-block" type="submit">Read Reviews</button>
+</form>
+<div class="" th:classappend="${insession}">
+  <div class="home-page-buy-cars-by-default-group35">
+    <span class="home-page-buy-cars-by-default-text40">
+      <span>MotorHeaven</span>
+    </span>
+    </div>
+    <div class="home-page-buy-cars-by-default-group4">
+      <span class="home-page-buy-cars-by-default-text42">
+        <form action="#" th:action="@{/login}">
+          <button type="submit">Login</button>
+        </form>
+      </span>
+    </div>
+    <div class="home-page-buy-cars-by-default-group3">
+      <span class="home-page-buy-cars-by-default-text44">
+        <form action="#" th:action="@{/register}">
+        <button type="submit">Register</button>
+      </form>
+      </span>
+    </div>
+  </div>
+<div class="" th:classappend="${logsession}">
+<div class="home-page-buy-cars-by-default-group35">
+<span class="home-page-buy-cars-by-default-text40"> 
+    <span>MotorHeaven</span>
+</span>
+</div>
+<div class="home-page-buy-cars-by-default-group4">
+  <span class="home-page-buy-cars-by-default-text64">
+   
+    <form action="#" th:action="@{/viewHistory}">
+    <button type="submit">View History</button>
+    </form>
+  </span>
+</div>
+<div class="home-page-buy-cars-by-default-group3">
+  <span class="home-page-buy-cars-by-default-text44">
+    <form action="#" th:action="@{/logoutUser}">
+    <button type="submit">Logout</button>
+  </form>
+  </span>
+</div>
+</div>
+</body>
+</html>
